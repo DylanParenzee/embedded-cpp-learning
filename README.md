@@ -34,6 +34,16 @@ I built a small simulation of an automatic bin lid. When the ultrasonic sensor d
 
 I configured Arduino IDE for a Freenove ESP32-S3 and uploaded a simple C++ serial-output program. After checking the serial settings, I was able to see the message repeat in Serial Monitor. I also used a multimeter to verify a 3.3V supply and got the 2.8-inch TFT backlight working. The display isn't showing programmed graphics yet; SPI communication is the next task.
 
+## Projects
+
+I keep short learning exercises in this repository and give larger projects their own repositories, with source code, hardware documentation and an engineering log.
+
+| Project | Status | Repository |
+| --- | --- | --- |
+| ESP32-S3 touchscreen interface | In progress: serial upload and TFT backlight tested; SPI graphics next | Dedicated repository being set up |
+| RFID-controlled TV timer | Planned | Not started |
+| Facial-recognition door lock | Long-term goal | Not started |
+
 ## Development journal
 
 I keep a dated record of milestones, test results and troubleshooting in [CHANGELOG.md](CHANGELOG.md).
