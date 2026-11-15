@@ -40,7 +40,7 @@ I keep short learning exercises in this repository and give larger projects thei
 
 | Project | Status | Repository |
 | --- | --- | --- |
-| ESP32-S3 touchscreen interface | In progress: serial upload and TFT backlight tested; SPI graphics next | Dedicated repository being set up |
+| ESP32-S3 touchscreen interface | In progress: serial upload and TFT backlight tested; SPI graphics next | [esp32-touchscreen-interface](https://github.com/DylanParenzee/esp32-touchscreen-interface) |
 | RFID-controlled TV timer | Planned | Not started |
 | Facial-recognition door lock | Long-term goal | Not started |
 
