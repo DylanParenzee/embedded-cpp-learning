@@ -20,7 +20,7 @@ This repository is my learning record: what I've actually built, the problems I'
 | Button-controlled LED | Arduino Uno R3, pushbutton, LED | **Completed and physically tested** |
 | Ultrasonic-triggered servo / simulated bin lid | Arduino Uno R3, HC-SR04, servo | **Built and physically tested** |
 | ESP32-S3 serial communication | Freenove ESP32-S3 | **Program uploaded; serial output verified** |
-| SPI TFT touchscreen | ESP32-S3, 2.8-inch TFT module | **In progress — power and backlight tested** |
+| SPI TFT touchscreen | ESP32-S3, 2.8-inch TFT module | **In progress — first full-screen SPI graphics test working** |
 
 ### Button-controlled LED
 
@@ -32,7 +32,7 @@ I built a small simulation of an automatic bin lid. When the ultrasonic sensor d
 
 ### ESP32-S3 and touchscreen
 
-I configured Arduino IDE for a Freenove ESP32-S3 and uploaded a simple C++ serial-output program. After checking the serial settings, I was able to see the message repeat in Serial Monitor. I also used a multimeter to verify a 3.3V supply and got the 2.8-inch TFT backlight working. The display isn't showing programmed graphics yet; SPI communication is the next task.
+I configured Arduino IDE for a Freenove ESP32-S3 and uploaded a simple C++ serial-output program. After checking the serial settings, I was able to see the message repeat in Serial Monitor. I also used a multimeter to verify a 3.3V supply and got the 2.8-inch TFT backlight working. The first graphics test initially produced partial colour and static, but an alternative driver and corrected inversion settings produced a full-screen blue image. Touch input is still untested.
 
 ## Projects
 
@@ -40,7 +40,7 @@ I keep short learning exercises in this repository and give larger projects thei
 
 | Project | Status | Repository |
 | --- | --- | --- |
-| ESP32-S3 touchscreen interface | In progress: serial upload and TFT backlight tested; SPI graphics next | [esp32-touchscreen-interface](https://github.com/DylanParenzee/esp32-touchscreen-interface) |
+| ESP32-S3 touchscreen interface | In progress: full-screen SPI graphics working; touch input next | [esp32-touchscreen-interface](https://github.com/DylanParenzee/esp32-touchscreen-interface) |
 | RFID-controlled TV timer | Planned | Not started |
 | Facial-recognition door lock | Long-term goal | Not started |
 
