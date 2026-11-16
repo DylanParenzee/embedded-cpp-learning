@@ -12,8 +12,8 @@ This record separates **encountered** topics from those I've **explained or demo
 | Hardware troubleshooting | Demonstrated | Isolated a faulty ultrasonic sensor by replacement |
 | Multimeter DC voltage measurement | Practised | Measured the ESP32 3.3V supply |
 | ESP32-S3 upload and Serial Monitor | Practised successfully | Uploaded sketch and observed repeated serial messages |
-| SPI communication | Practised in a guided project | Connected MOSI, SCK and control pins; full-screen colour test worked |
-| TFT graphics | Demonstrated in a guided test | ST7789 library displayed solid blue across the panel after disabling inversion |
+| SPI communication | **Lesson completed — practised and explained** | Connected MOSI, SCK and control pins; achieved full-screen colour; explained timing and driver compatibility |
+| TFT graphics | **Lesson completed — demonstrated with guidance** | ST7789 library displayed solid blue across the panel after disabling inversion; explained why changing drivers can correct display addressing |
 | TFT touch input | Planned | Not yet wired or tested |
 | General C++ proficiency | In development | Continue writing original code and explaining design choices |
 
