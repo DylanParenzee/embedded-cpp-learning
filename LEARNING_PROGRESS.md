@@ -12,14 +12,16 @@ This record separates **encountered** topics from those I've **explained or demo
 | Hardware troubleshooting | Demonstrated | Isolated a faulty ultrasonic sensor by replacement |
 | Multimeter DC voltage measurement | Practised | Measured the ESP32 3.3V supply |
 | ESP32-S3 upload and Serial Monitor | Practised successfully | Uploaded sketch and observed repeated serial messages |
-| SPI communication | Planned | Not yet wired or tested for this display |
-| TFT graphics and touch input | Planned | Backlight only confirmed; no graphics or touch test yet |
+| SPI communication | Practised in a guided project | Connected MOSI, SCK and control pins; full-screen colour test worked |
+| TFT graphics | Demonstrated in a guided test | ST7789 library displayed solid blue across the panel after disabling inversion |
+| TFT touch input | Planned | Not yet wired or tested |
 | General C++ proficiency | In development | Continue writing original code and explaining design choices |
 
 ## Revision notes
 
 - Keep practising C++ syntax and writing sketches without relying on complete examples.
 - Distinguish a display's backlight power from the communication needed to draw pixels.
+- Review how SPI clock timing and display-driver configuration affect output.
 - Continue building a repeatable troubleshooting process: observe, isolate, test, confirm.
 
 ## Working principles
